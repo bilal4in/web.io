@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0E1428">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <title>Horoscope Insights</title>
+
+
+
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap-icons.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav id="mainnav" class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <img src="./images/menu_icon.png" alt="Logo" width="30" height="30"
+                    class="d-inline-block align-text-top">
+                Horoscope
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featuredAstrologers">Astrologers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+
+                </ul>
+
+                <a class="btn btn-primary" href="#contact" role="button">Donate</a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-3">
+        <div class="row">
+          <div class="col-md-6 offset-md-6">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- hero section -->
+    <div id="hero" class="py-6 d-md-py7">
+
+        <div class="container ">
+            <div id="insidehero" class="p-3  py-5 my-5 p-md-5 blurred-content">
+                <h2 class="mb-4">Unlock the Power of the Cosmos with Personalized Astrology Readings</h2>
+                <p class="mb-4">Welcome to Horoscope Insights, where the stars align to guide you on your journey of
+                    self-discovery.
+                    Our
+                    expert astrologers are here to provide you with in-depth readings that reveal the secrets of the
+                    universe and illuminate your path.</p>
+
+                <p class="mb-4">Ready to embark on a transformative journey? Book a reading or consultation today and
+                    embark on a
+                    path of
+                    enlightenment.</p>
+
+
+                
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="scroll-reveal" id="about">
+        <div id="aboutcover" class="py-5">
+            <div class="container">
+                <h3 class="text-center">About Horoscope Insights</h3>
+
+                <div class="row  py-5">
+                    <div class="col-md-6 text-center order-md-1">
+                        <img class="my-4" height="150" src="./images/logo.png" alt="Horoscope Insights Logo">
+
+                    </div>
+                    <div class="col-md-6 order-md-2">
+
+                        <p>At Horoscope Insights, we believe that astrology is more than just a practice—it's a journey of
+                            self-discovery and empowerment. Our team of experienced astrologers is dedicated to helping
+                            you
+                            uncover the mysteries of the cosmos and harness the wisdom of the stars. With a deep
+                            understanding of astrological principles and a passion for guiding others, we're here to
+                            provide
+                            you with insightful readings, transformative consultations, and a personalized experience
+                            that
+                            illuminates your path to self-awareness and growth.</p>
+                       
+
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+ <!-- Get Immediate Solution Form -->
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h3>Get Immediate Solution Now</h3>
+        <form>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="mobile">Your Mobile No.</label>
+            <input type="tel" class="form-control" id="mobile" placeholder="Enter your mobile number">
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div id="services" class="py-5 scroll-reveal">
+
+        <div class="container">
+            <h3 class="text-center">Our Services</h3>
+            <div class=" text-center py-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="my-4" src="./images/icons/stars.png" alt="Natal Chart Readings Icon">
+                        <h4> Taurus
+                        </h4>
+                        <p> Discover your unique personality, strengths, and challenges based on the alignment of the
+                            stars taurus
+                            at your birth.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="my-4" src="./images/icons/love.png" alt="Compatibility Analysis Icon">
+                        <h4>Aries</h4>
+                        <p>Gain insights into your relationships by exploring the compatibility between your
+                            Aries signs.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="my-4" src="./images/icons/horoscope.png" alt="Personalized Forecasts Icon">
+                        <h4>Cancer</h4>
+                        <p>
+                            Get guidance on upcoming events and challenges in your life with Cancer astrological
+                            forecasts.
+                        </p>
+                    </div>
+
+
+
+
+                    <div class="col-md-4">
+                        <img class="my-4" src="./images/icons/tarot.png" alt="Tarot Card Readings Icon">
+                        <h4> Libra
+                        </h4>
+                        <p>Gain insights into your past,
+                            present, and future, and receive guidance that transcends time and space.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="my-4" src="./images/icons/path.png" alt="Career Path Alignment Icon">
+                        <h4>Leo</h4>
+                        <p>Unlock the potential of your career journey through astrology. Discover your strengths,
+                            talents, and optimal career paths that resonate with your Leo Star.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="my-4" src="./images/icons/ball.png" alt="Life Purpose Exploration Icon">
+                        <h4>Virgo</h4>
+                        <p>Embark on a journey to uncover your life's purpose and destiny. Our astrologers delve deep
+                            into your birth chart to reveal the cosmic forces guiding you toward fulfillment and
+                            meaning.
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="scroll-reveal" id="featuredAstrologers">
+        <div id="featurecover" class="py-5">
+
+            <div class="container">
+                <h3 class="text-center">Featured Astrologers</h3>
+
+                <div class="text-center py-5 ">
+                    <div class="row">
+                        <div class="col-md-4 border border-light">
+                            <img src="./images/icons/download.jpg" alt="Circular Image"
+                                class="img-fluid rounded-circle my-4" style="width: 150px; height: 150px;">
+
+                            <h4>
+                                Astrology Expert 1
+                            </h4>
+                            <a href=""> <i class="bi bi-instagram"></i>
+                            </a>
+                            <p>
+                                With over 15 years of experience in astrology, Elena's intuitive readings provide deep
+                                insights into your life's journey. Specializing in natal charts and relationship
+                                dynamics,
+                                she's dedicated to helping you understand your unique cosmic makeup.
+                                <button type="submit" class="btn btn-primary">Contact Now</button>
+                            </p>
+
+                        </div>
+                        <div class="col-md-4 border border-light">
+                            <img src="./images/icons/w1.jpg" alt="Circular Image"
+                                class="img-fluid rounded-circle my-4" style="width: 150px; height: 150px;">
+                            <h4>Astrology Expert 2
+
+                            </h4>
+                            <a href=""> <i class="bi bi-instagram"></i>
+                            </a>
+                            <p>
+                                 Expertise in Vedic astrology brings ancient wisdom to modern seekers. Her
+                                precise
+                                predictions and holistic approach to life's challenges have earned her a reputation for
+                                accuracy and guidance that aligns.
+                                <button type="submit" class="btn btn-primary">Contact Now</button>
+                            </p>
+
+
+                        </div>
+                        <div class="col-md-4 border border-light ">
+                            <img src="./images/icons/e1.jpg" alt="Circular Image"
+                                class="img-fluid rounded-circle my-4" style="width: 150px; height: 150px;">
+                            <h4>Astrology Expert 3</h4>
+                            <a href=""> <i class="bi bi-instagram"></i>
+                            </a>
+                            <p> Passion for astrology and psychology creates a unique blend of insights into
+                                your
+                                inner world. As a certified astrologer and counselor, He offers personalized guidance
+                                for
+                                self-discovery and emotional well-being, empowering you to navigate life's twists 
+                            
+                                <button type="submit" class="btn btn-primary">Contact Now</button>
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="testimonials" class="py-5 scroll-reveal">
+
+        <div class="container">
+
+            <h3 class="text-center">Latest Videos</h3>
+           <!-- Carousel Section -->
+    <div id="logoCarousel" class="carousel slide py-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/images.jpg" class="d-block mx-auto" alt="Company Logo 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/images 2.jpg" class="d-block mx-auto" alt="Company Logo 2">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/images 3.jpg" class="d-block mx-auto" alt="Company Logo 2">
+            </div>
+            <!-- Add more carousel items for additional logos -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#logoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#logoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <button type="submit" class="btn btn-primary">Watch more</button>
+    </div>
+
+
+    
+
+
+    <footer class="py-5 bg-dark footer-bg">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- About Us -->
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="text-uppercase text-white">Useful Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Privacy Notice</a></li>
+                        <li><a href="#">Media Centre</a></li>
+                        <li><a href="#">What We Do</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Info -->
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="text-uppercase text-white">Contact info</h5>
+                    <p class="text-white">12 Street, Lahore, Pakistan</p>
+                    <p class="text-white">Email: T&Tshop@gmail.com</p>
+                    <p class="text-white">Phone: +923094111939</p>
+                </div>
+                <!-- Social Media Links -->
+                <div class="col-md-4">
+                    <h5 class="text-uppercase text-white">Stay In Touch</h5>
+                    <ul class="list-inline footer-links">
+                        <li class="list-inline-item"><a href="#"><i class="bi-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="bi-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="bi-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="bi-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Overlaying text -->
+        <div class="container-fluid footer-overlay">
+            <div class="row">
+                <div class="col text-center">
+                    <p class="m-0 text-white">Copyright &copy; Bilal 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTopBtn">
+        <i class="bi bi-arrow-up-short"></i>
+    </button>
+    <script src="./js/scrollreveal.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script defer src="./js/script.js"></script>
+</body>
+
+</html>
